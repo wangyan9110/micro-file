@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>info.yywang.micro</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <name>micro-file</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <parent>
+        <groupId>info.yywang.micro</groupId>
+        <artifactId>root</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>dao</module>
+        <module>service</module>
+        <module>app</module>
+    </modules>
+    <repositories>
+        <!--<repository>-->
+            <!--<id>WanHang</id>-->
+            <!--<url>http://192.168.0.185:8081/nexus/content/groups/public/</url>-->
+        <!--</repository>-->
+    </repositories>
+
+    <dependencies>
+
+
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
