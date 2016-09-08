@@ -19,10 +19,10 @@ done
 
 # echo $CLASSPATH
 
-APPNAME=com.iydsj.sw.creatorgod.app.Application
+APPNAME=info.yywang.file.app.Application
 
 java -Xms256m -Xmx256m  -Ddubbo.registry.file=/home/newad/.dubbo/dubbo-registry-creatorgod-0.cache -classpath $CLASSPATH $APPNAME start >/dev/null 2>&1 &
 
-echo $! > "/var/run/SW-CMS-$1.pid"
+echo $! > "/var/run/file-$1.pid"
 
 echo "started"
