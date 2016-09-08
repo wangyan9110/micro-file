@@ -2,7 +2,7 @@
 
 <configuration debug="true" scan="false" scanPeriod="20 seconds">
 
-    <property name="APP_NAME" value="creatorgod" />
+    <property name="APP_NAME" value="micro-file" />
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are  by default assigned the type
